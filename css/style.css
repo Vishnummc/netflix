@@ -1,0 +1,120 @@
+.logo{ 
+    width: 11%;
+    height: 150px;
+    color: rgb(239,9,20);
+    padding-left: 100PX;
+
+    
+
+}
+.btn-nav {
+    background-color:rgb(229,9,20);
+    color:white ;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:5px ;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    width:fit-content ;
+    flex-direction: row;
+    
+    }
+    .nav{
+        height:10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 2vw;
+        padding-right: 4vw;
+        padding-top: 1%;
+       
+
+
+    }
+    .body{
+        background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url("/image/download.jpg");
+        background: size cover;
+        background-position: center;
+        margin: 0%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        
+        
+
+    }
+    .main-container{
+        width:100% ;
+        height: 90vh;
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+
+    }
+    .big-titles{
+        width: 50%;
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+    .t1{
+        font-size: 3.2em;
+        margin-bottom: 14px;
+        line-height: 1.1;
+        white-space: nowrap;
+    
+    }
+    
+.t2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+
+}
+.main-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+
+}
+.email-conta{
+    width: 55%;
+    height: fit-content;
+    background-color:#ffffff ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.email{
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1em;
+
+   
+}
+.get-button{
+    cursor: pointer;
+    padding: 18px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #e50914;
+
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
